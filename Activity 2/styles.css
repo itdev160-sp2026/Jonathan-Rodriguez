@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.age-checker {
+  margin: 15px 0;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.adult {
+  color: green;
+}
+
+.minor {
+  color: orange;
+}
+
+.invalid {
+  color: red;
+}
