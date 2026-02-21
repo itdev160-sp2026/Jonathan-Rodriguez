@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 4: Interactive To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Activity 4: My Interactive To-Do List</h1>
+    <p>Open the console to see element creation and DOM manipulation</p>
+
+    <div class="todo-wrapper">
+        <div class="input-area">
+            <h2>Add Task</h2>
+            <input type="text" id="newTaskInput" placeholder="Type a new task..." maxlength="100">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <div class="tasks-area">
+            <h2>Tasks <span id="taskSummary">(0 tasks)</span></h2>
+            <ul id="taskList"></ul>
+        </div>
+
+        <div class="stats-area">
+            <p id="taskStats">
+                Total: 0 | Completed: 0 | Pending: 0
+            </p>
+        </div>
+    </div>
+
+    <div id="demoOutput"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
