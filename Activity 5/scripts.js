@@ -1,6 +1,4 @@
-// ============================
-// Part A: Element Selection
-// ============================
+//Element Selection
 
 const number1Input = document.getElementById("number1");
 const number2Input = document.getElementById("number2");
@@ -13,9 +11,8 @@ console.log("Buttons:", buttons);
 console.log("Result Div:", resultDiv);
 
 
-// ============================
-// Part B: Event Object Helper
-// ============================
+//Event Object Helper
+
 
 function logEventDetails(event) {
     console.log("Event Type:", event.type);
@@ -26,10 +23,7 @@ function logEventDetails(event) {
 }
 
 
-// ============================
-// Part C: Math Operations
-// ============================
-
+// Math Operations
 function getValidatedNumbers() {
     const num1 = parseFloat(number1Input.value);
     const num2 = parseFloat(number2Input.value);
@@ -62,9 +56,7 @@ function divide(a, b) {
 }
 
 
-// ============================
-// Part D: Event Listeners
-// ============================
+//Event Listeners
 
 buttons.forEach(button => {
     button.addEventListener("click", function(event) {

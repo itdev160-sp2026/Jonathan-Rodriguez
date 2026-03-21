@@ -1,5 +1,5 @@
 // Part A: Arithmetic Operators
-let a = 10;
+let a = 2;
 let b = 3;
 
 console.log("Addition:", a + b);
@@ -8,7 +8,7 @@ console.log("Multiplication:", a * b);
 console.log("Division:", a / b);
 console.log("Remainder:", a % b);
 
-console.log("Precedence:", a + b * 2);
+console.log("Precedence:", a + b * 4);
 console.log("With parentheses:", (a + b) * 2);
 
 // Part B: Comparison Operators
